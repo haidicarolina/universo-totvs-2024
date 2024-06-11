@@ -8,24 +8,24 @@ const routes: Routes = [
     path: '',
     component: CustomersListComponent,
     data: {
-      serviceApi: 'api/esp/v1/customers',
-      serviceMetadataApi: 'api/esp/v1/customers/metadata/list',
+      serviceApi: '/api/esp/v1/customers',
+      serviceMetadataApi: '/api/esp/v1/customers/metadata/list',
     }
   },
   {
     path: 'new',
     component: CustomerFormComponent,
     data: {
-      serviceApi: 'api/esp/v1/customers',
-      serviceMetadataApi: 'api/esp/v1/customers/metadata/form',
+      serviceApi: '/api/esp/v1/customers',
+      serviceMetadataApi: '/api/esp/v1/customers/metadata/form',
     }
   },
   {
     path: 'edit/:id',
     component: CustomerFormComponent,
     data: {
-      serviceApi: 'api/esp/v1/customers',
-      serviceMetadataApi: 'api/esp/v1/customers/metadata/form',
+      serviceApi: '/api/esp/v1/customers',
+      serviceMetadataApi: '/api/esp/v1/customers/metadata/form',
     }
   }
 ];
